@@ -1,0 +1,25 @@
+{
+  "name": "@org/mcp-ai-service",
+  "version": "1.0.0",
+  "description": "MCP Server for biomarker AI analysis using Google Generative AI",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "npx tsc -p tsconfig.json",
+    "start": "node dist/main.js",
+    "dev": "npx tsc -p tsconfig.json && MCP_PORT=3001 node dist/main.js",
+    "type-check": "npx tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^1.33.0",
+    "@google/generative-ai": "^0.5.0",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "dotenv": "^17.2.3",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
