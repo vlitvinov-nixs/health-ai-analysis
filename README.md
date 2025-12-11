@@ -1,6 +1,7 @@
 # Healthcare Biomarker Analysis Platform
 
 A full-stack healthcare application for viewing patient biomarker data with AI-powered insights, real-time updates, and MCP server integration.
+AI tools used for development: Copilot, Claude Haiku 4.5.
 
 ## 🚀 Setup and Run Instructions
 
